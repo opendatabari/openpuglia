@@ -1,7 +1,7 @@
 # Custom vars
 # -------------------------
 
-current_version:  1.0.0
+current_version:  1.0.1
 name: 			  openPuglia
 
 # Main Logo
@@ -18,14 +18,14 @@ url:
 navbar_links:
   - title: "Home"
     url: "#image-hero"
-  - title: "Features"
+  - title: "Goals"
     url: "#features"
   - title: "Services"
     url: "#services"
   - title: "Work"
-    url: "#work"    
-  - title: "Pricing Tables"
-    url: "#pricing-tables"
+    url: "#work" 
+  - title: "Blog"
+    url: "http://opendatabari.github.io/openpuglia-blog"   
   - title: "Contact"
     url: "#contact"
 
@@ -43,37 +43,25 @@ tagline:      	  "Civic Hacking"
 # -------------------------
 
 features_thumbs:
-  - title: "Clean Code"
-    icon: "code"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
-  - title: "Build with Jekyll"
-    icon: "flask"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
-  - title: "Unique Design"
-    icon: "file-image-o"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
-  - title: "Responsive"
-    icon: "mobile"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
-  - title: "Easy Color Change"
-    icon: "bolt"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
-  - title: "439 Icons"
-    icon: "flag"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
-  - title: "Google Maps"
-    icon: "map-marker"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
-  - title: "Fullscreen Background"
-    icon: "expand"
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ipsam a illum, ducimus quod impedit architecto distinctio dolorem amet dignissimos ad corrupti! Fugit aut earum in sit, placeat quis consequatur."
-
+  - title: "Trasparency"
+    icon: "search"
+    description: "The Open Data are a central element in strategies for e-Government, essential to promote greater transparency in acting administration, the active participation of citizens in decision-making processes of government."
+  - title: "Culture"
+    icon: "book"
+    description: "Open Data for culture with the aim of promoting the development, cultural, innovative applications especially in mobile technology and more generally for the production of digital content and the creation of new services on the web."
+  - title: "Smart Mobility"
+    icon: "automobile"
+    description: "Move better to live better. With smart mobility defines the new concept of mobility, meeting the needs of transport of goods and people in an efficient and sustainable, thus raising the quality of life."
+  - title: "Territory"
+    icon: "leaf"
+    description: "More and more travelers will be students that are formed in our schools and will be the engine of both the demand and supply cultural tourism and consequently the school will be more and more place of formation of Awareness, Knowledge and sharing."
+  
 # Blockquote
 # -------------------------
 
 blockquote: 
-   text: "We develop online marketing solutions that help enterprises accurately identify the consumers that truly need their services."
-   tagline: "Serving the community since 2014"
+   text: "Listen interest from developers, private companies, public administrations to develop innovative projects, useful applications for the territory using OpenData."
+   tagline: "We are community on digital culture"
    button_text: "Read More"
    button_url: "#_"
 
@@ -81,52 +69,36 @@ blockquote:
 # -------------------------
 
 services:
- - title: "Front-End Development"
+ - title: "Digital Experience"
    icon: "desktop"
-   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
- - title: "iOS Development"
-   icon: "apple"
-   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."
- - title: "UI/UX Design"
-   icon: "magic"
-   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni tenetur officiis vel aspernatur. Quidem eligendi sequi veritatis vel recusandae porro maxime corporis id, deleniti harum alias asperiores soluta unde aliquam."      
+   description: "Public Administrations have available a wealth of information, which if disclosed, may generate useful resources, to improve public services, to make the city more participatory public policies, and to allow companies to create business tools."
+ - title: "Dataset analysis"
+   icon: "database"
+   description: "Integrate, capture, aggregation, storage, analysis, visualization and redistribution of Open Data (OD), statistical and financial data, and information from social media."
+ - title: "Development"
+   icon: "github"
+   description: "Develop App / Web , REST API , with nodejs , Android , IOS , Javascript thanks to the collaboration of over 100 developers of Google Developer Group of Bari."      
 
 # Work Mosaic
 # -------------------------
 
 work_thumbs:
- - title: "Maxime Corporis Set"
-   description: "Fugit aut earum in sit, placeat quis consequatur."
+ - title: "openBari"
+   description: "Smart Mobility"
    url: "#_"
-   image: "media/img/work-01.jpg"
- - title: "Veritatis Vel Recusandae"
-   description: "Fugit aut earum in sit, placeat quis consequatur."
+   image: "media/img/openbari.jpg"
+ - title: "EDO"
+   description: "Open Data Envirnment"
    url: "#_"
-   image: "media/img/work-02.jpg"
- - title: "Consectetur Adipisicing"
-   description: "Fugit aut earum in sit, placeat quis consequatur."
+   image: "media/img/edo2.jpg"
+ - title: "TTEO"
+   description: "Civic Hacking"
    url: "#_"
-   image: "media/img/work-03.jpg"
- - title: "Asperiores Soluta"
-   description: "Fugit aut earum in sit, placeat quis consequatur."
+   image: "media/img/tteeo.jpg"
+ - title: "openAGRI"
+   description: "openData for Agriculture Markets"
    url: "#_"
-   image: "media/img/work-04.jpg"
- - title: "Officiis Aspernatur"
-   description: "Fugit aut earum in sit, placeat quis consequatur."
-   url: "#_"
-   image: "media/img/work-05.jpg"   
- - title: "Soluta Asperiores"
-   description: "Fugit aut earum in sit, placeat quis consequatur."
-   url: "#_"
-   image: "media/img/work-06.jpg"
- - title: "Adipisicing Consectetur"
-   description: "Fugit aut earum in sit, placeat quis consequatur."
-   url: "#_"
-   image: "media/img/work-07.jpg"
- - title: "Maxime Corporis Set"
-   description: "Fugit aut earum in sit, placeat quis consequatur."
-   url: "#_"
-   image: "media/img/work-08.jpg"
+   image: "media/img/market-agri.jpg"
 
 # Contact
 # -------------------------
@@ -137,13 +109,13 @@ contact:
    marker_title: "openPuglia"
    marker_address: "1 Infinite Loop Cupertino, CA 95014"
    phone_number: "(321) 402-1098"
-   email_address: "hello@kunstnerisk.com"
+   email_address: "openpuglia@gmail.com"
 
 # Configuration
 # -------------------------
 
 # Dependencies
-pygments: 		  false
+highlighter: 		  false
 
 # Permalinks
 permalink: 		  none
