@@ -14,24 +14,33 @@
 						<h1 class="text-center">Contact.</h1>
 						<hr class="margin-bottom-50">
 
-						<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="col-lg-3 col-md-3 col-sm-3">
 							<div class="text-center">
-								<i class="fa fa-3x fa-phone-square text-brand-main-color margin-top-20 margin-bottom-20"></i>
-								<h4>{{ site.contact.phone_number }}</h4>
+								<a href="{{ site.contact.twitter }}" target="_blank">
+									<i class="fa fa-3x fa-twitter text-brand-main-color margin-top-20 margin-bottom-20"></i>
+								</a>
 							</div>
 						</div>
 
-						<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="col-lg-3 col-md-3 col-sm-3">
 							<div class="text-center">
+								<a href="mailto:{{ site.contact.email_address }}" class="text-brand-main-color">
 								<i class="fa fa-3x fa-envelope-o text-brand-main-color margin-top-20 margin-bottom-20"></i>
-								<h4><a href="mailto:{{ site.contact.email_address }}" class="text-brand-main-color">{{ site.contact.email_address }}</a></h4>
+								</a>
 							</div>
 						</div>
 
-						<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="col-lg-3 col-md-3 col-sm-4">
 							<div class="text-center">
-								<i class="fa fa-3x fa-building-o text-brand-main-color margin-top-20 margin-bottom-20"></i>
-								<h4>{{ site.contact.marker_address }}</h4>
+								<a href="{{ site.contact.facebook }}" target="_blank">
+								<i class="fa fa-3x fa-facebook-square text-brand-main-color margin-top-20 margin-bottom-20"></i></a>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-4">
+							<div class="text-center">
+								<a href="{{ site.contact.googleplus }}" target="_blank">
+								<i class="fa fa-3x fa-google-plus text-brand-main-color margin-top-20 margin-bottom-20"></i></a>
 							</div>
 						</div>
 

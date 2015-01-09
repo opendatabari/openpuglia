@@ -1,7 +1,7 @@
 # Custom vars
 # -------------------------
 
-current_version:  1.0.1
+current_version:  1.0.2
 name: 			  openPuglia
 
 # Main Logo
@@ -18,7 +18,7 @@ url:
 navbar_links:
   - title: "Home"
     url: "#image-hero"
-  - title: "Goals"
+  - title: "Mission"
     url: "#features"
   - title: "Services"
     url: "#services"
@@ -31,7 +31,7 @@ navbar_links:
 
 # Navigation Background Color. 
 # Options: caribbean-green, summer-sky, golden-poppy, deep-carmine-pink
-navbar_color: "summer-sky"
+navbar_color: "deep-carmine-pink"
 
 # Image Hero
 # -------------------------
@@ -43,25 +43,25 @@ tagline:      	  "Civic Hacking"
 # -------------------------
 
 features_thumbs:
-  - title: "Trasparency"
+  - title: "Trasparenza"
     icon: "search"
-    description: "The Open Data are a central element in strategies for e-Government, essential to promote greater transparency in acting administration, the active participation of citizens in decision-making processes of government."
-  - title: "Culture"
+    description: "Gli OpenData sono un elemento centrale nelle strategie per l'e-Government, fondamentale per promuovere una maggiore trasparenza nella gestione, la partecipazione attiva dei cittadini nei processi decisionali di governo."
+  - title: "Cultura"
     icon: "book"
-    description: "Open Data for culture with the aim of promoting the development, cultural, innovative applications especially in mobile technology and more generally for the production of digital content and the creation of new services on the web."
+    description: "OpenData per la cultura hanno l'obiettivo di promuovere lo sviluppo della cultura, con applicazioni innovative soprattutto nella tecnologia mobile e più in generale per la produzione di contenuti digitali e la creazione di nuovi servizi sul web."
   - title: "Smart Mobility"
     icon: "automobile"
-    description: "Move better to live better. With smart mobility defines the new concept of mobility, meeting the needs of transport of goods and people in an efficient and sustainable, thus raising the quality of life."
-  - title: "Territory"
+    description: "Muoversi meglio per vivere meglio, smart mobility è soddisfare le esigenze di trasporto di merci e persone in modo efficiente e sostenibile, aumentando così la qualità della vita."
+  - title: "Territorio"
     icon: "leaf"
-    description: "More and more travelers will be students that are formed in our schools and will be the engine of both the demand and supply cultural tourism and consequently the school will be more and more place of formation of Awareness, Knowledge and sharing."
+    description: "Creare nuovi modelli di sviluppo, e nuova cultura, con gli openDATA dedicati all'ambiente ed al terriorio che concepisceano il territorio come il risultato di un vincente equilibrio tra crescita economica, rispetto dell'ambiente, protezione delle proprie radici, promozione degli individui e qualità della vita."
   
 # Blockquote
 # -------------------------
 
 blockquote: 
-   text: "Listen interest from developers, private companies, public administrations to develop innovative projects, useful applications for the territory using OpenData."
-   tagline: "We are community on digital culture"
+   text: "Analizziamo, progettiamo modelli di dati, business ed applicazione per la diffusione del civic hacking ed openData, cercando di incontrare l'interesse da parte di sviluppatori, aziende private, amministrazioni pubbliche per realizzare progetti innovativi, applicazioni utili per il territorio e per il benessere della comunità."
+   tagline: "Siamo una community per la promozione della cultura digitale."
    button_text: "Read More"
    button_url: "#_"
 
@@ -71,13 +71,13 @@ blockquote:
 services:
  - title: "Digital Experience"
    icon: "desktop"
-   description: "Public Administrations have available a wealth of information, which if disclosed, may generate useful resources, to improve public services, to make the city more participatory public policies, and to allow companies to create business tools."
+   description: "Le PA hanno a disposizione una grande quantità di informazioni, che, se divulgate, potrebbero generare risorse utili per migliorare i servizi pubblici, per rendere la città più partecipativi politiche pubbliche, e di consentire alle aziende di creare strumenti di business."
  - title: "Dataset analysis"
    icon: "database"
-   description: "Integrate, capture, aggregation, storage, analysis, visualization and redistribution of Open Data (OD), statistical and financial data, and information from social media."
+   description: "Analizzare, aggregare ed armonizzare Open Data (OD), dati statistici e finanziari, e le informazioni dai social media."
  - title: "Development"
    icon: "github"
-   description: "Develop App / Web , REST API , with nodejs , Android , IOS , Javascript thanks to the collaboration of over 100 developers of Google Developer Group of Bari."      
+   description: "Sviluppare App / Web, REST API, con nodejs, Android, IOS, Javascript grazie alla collaborazione di oltre 100 sviluppatori di Google Developer Group di Bari."      
 
 # Work Mosaic
 # -------------------------
@@ -104,12 +104,15 @@ work_thumbs:
 # -------------------------
 
 contact:
-   latitude: "37.3321722"
-   longitude: "-122.0305748"
+   latitude: "41.1112893"
+   longitude: "16.8820664"
    marker_title: "openPuglia"
-   marker_address: "1 Infinite Loop Cupertino, CA 95014"
-   phone_number: "(321) 402-1098"
+   marker_address: "Piazza Umberto I"
+   phone_number: "(333) 828-6326"
    email_address: "openpuglia@gmail.com"
+   twitter: https://twitter.com/OpenDataPuglia
+   facebook: https://www.facebook.com/groups/1582370461982907/
+   googleplus: https://plus.google.com/u/0/communities/114201169795304528470
 
 # Configuration
 # -------------------------
