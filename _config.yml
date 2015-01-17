@@ -25,7 +25,7 @@ navbar_links:
   - title: "Work"
     url: "#work" 
   - title: "Blog"
-    url: "http://opendatabari.github.io/openpuglia-blog"   
+    url: "http://opendatabari.github.io/blog"   
   - title: "Contact"
     url: "#contact"
 
