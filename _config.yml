@@ -83,18 +83,14 @@ services:
 # -------------------------
 
 work_thumbs:
- - title: "openBari"
+ - title: "openCITY"
    description: "Smart Mobility"
-   url: "#_"
+   url: "http://opendatabari.github.io/opencity-site/"
    image: "media/img/openbari.jpg"
- - title: "EDO"
-   description: "Open Data Envirnment"
-   url: "#_"
+ - title: "openARPA"
+   description: "Open Data Environment"
+   url: "http://opendatabari.github.io/openARPA-site/"
    image: "media/img/edo2.jpg"
- - title: "TTEO"
-   description: "Civic Hacking"
-   url: "#_"
-   image: "media/img/tteeo.jpg"
  - title: "openAGRI"
    description: "openData for Agriculture Markets"
    url: "#_"
@@ -110,7 +106,7 @@ contact:
    marker_address: "Piazza Umberto I"
    phone_number: "(333) 828-6326"
    email_address: "openpuglia@gmail.com"
-   twitter: https://twitter.com/OpenDataPuglia
+   twitter: https://twitter.com/odpuglia
    facebook: https://www.facebook.com/groups/1582370461982907/
    googleplus: https://plus.google.com/u/0/communities/114201169795304528470
 
