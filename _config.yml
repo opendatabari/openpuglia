@@ -89,7 +89,7 @@ work_thumbs:
    image: "media/img/openbari.jpg"
  - title: "openARPA"
    description: "Open Data Environment"
-   url: "http://opendatabari.github.io/openARPA-site/"
+   url: "http://opendatabari.github.io/openarpa/"
    image: "media/img/edo2.jpg"
  - title: "openAGRI"
    description: "openData for Agriculture Markets"
