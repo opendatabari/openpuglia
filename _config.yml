@@ -85,7 +85,7 @@ services:
 work_thumbs:
  - title: "openCITY"
    description: "Smart Mobility"
-   url: "http://opendatabari.github.io/opencity-site/"
+   url: "http://opendatabari.github.io/opencity/"
    image: "media/img/openbari.jpg"
  - title: "openARPA"
    description: "Open Data Environment"
