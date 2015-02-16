@@ -1,0 +1,67 @@
+		<section id="services" class="section-content main-background-color">
+			<img class="top-diagonal hidden-xs hidden-sm" src="media/img/top-diagonal.png" alt="">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+
+						<h1 class="text-center">Staff.</h1>
+						<hr class="margin-bottom-50">
+
+						<div class="margin-top-80 margin-bottom-50">
+							<div class="row">
+								{% for st in site.staff %}
+								<!-- Single Service -->
+								<div class="col-lg-6 col-md-6 col-sm-6 padding-top-20">
+									<div class="row">
+										<div class="col-lg-3 col-md-3">
+											<i class="fa fa-{{ service.icon }} fa-5x text-brand-main-color margin-top-20"></i>
+										</div>
+										<div class="col-lg-9 col-md-9">
+											<h3 class="text-main-brand-color">
+                                                {{ st.title }}
+                                            </h3>
+                                            <h4>{{ st.subtitle }} </h4>
+                                            <p>
+                                            
+                                            {% if st.twitter != '' %}
+                                                <a href="{{ st.twitter }}" target="_blank">
+                                                <i class="fa fa-twitter"></i>
+                                                    </a>
+                                            {% endif %}
+                                            
+                                            {% if st.googleplus != '' %}
+                                                <a href="{{ st.googleplus }}" target="_blank">
+                                                <i class="fa fa-google-plus"></i>
+                                                </a>
+                                            {% endif %}
+                                            
+                                            {% if st.linkedin != '' %}
+                                                <a href="{{ st.linkedin }}" target="_blank">
+                                                <i class="fa fa-linkedin"></i>
+                                                </a>
+                                            {% endif %}
+                                            
+                                            {% if st.github != '' %}
+                                                <a href="{{ st.github }}" target="_blank">
+                                                <i class="fa fa-github"></i>
+                                                </a>
+                                            {% endif %}
+                                                
+                                            
+
+                                            </p>
+                                            <p>{{ st.description }}</p>
+										</div>
+									</div>
+								</div>
+								<!-- End Single Service -->
+								{% endfor %}
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<img class="bottom-diagonal hidden-xs hidden-sm" src="media/img/bottom-diagonal.png" alt="">
+		</section>
