@@ -48,7 +48,11 @@
                                                 </a>
                                             {% endif %}
                                                 
-                                            
+                                            {% if st.mail != '' %}
+                                                <a href="mailto:{{ st.mail }}" target="_blank">
+                                                <i class="fa fa-envelope"></i>
+                                                </a>
+                                            {% endif %}
 
                                             </p>
                                             <p>{{ st.description }}</p>
