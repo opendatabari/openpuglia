@@ -1,4 +1,4 @@
-		<section id="services" class="section-content main-background-color">
+		<section id="staff" class="section-content main-background-color">
 			<img class="top-diagonal hidden-xs hidden-sm" src="media/img/top-diagonal.png" alt="">
 
 			<div class="container">
@@ -12,16 +12,16 @@
 							<div class="row">
 								{% for st in site.staff %}
 								<!-- Single Service -->
-								<div class="col-lg-6 col-md-6 col-sm-6 padding-top-20">
+								<div class="col-lg-4 col-md-4 col-sm-4 padding-top-20">
 									<div class="row">
-										<div class="col-lg-3 col-md-3">
-											<i class="fa fa-{{ service.icon }} fa-5x text-brand-main-color margin-top-20"></i>
-										</div>
-										<div class="col-lg-9 col-md-9">
-											<h3 class="text-main-brand-color">
+                                        <div class="col-lg-3 col-md-3">
+                                           <img src="{{ st.avatar }}" width="100%" margin-top-20></img> 
+                                        </div>
+                                        <div class="col-lg-9 col-md-9">
+                                            
+                                            <h3 class="text-main-brand-color">
                                                 {{ st.title }}
                                             </h3>
-                                            <h4>{{ st.subtitle }} </h4>
                                             <p>
                                             
                                             {% if st.twitter != '' %}
@@ -55,9 +55,10 @@
                                             {% endif %}
 
                                             </p>
+                                            <h4>{{ st.subtitle }}</h4>
                                             <p>{{ st.description }}</p>
-										</div>
-									</div>
+                                        </div>
+                                    </div>     
 								</div>
 								<!-- End Single Service -->
 								{% endfor %}
