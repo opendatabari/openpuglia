@@ -1,7 +1,7 @@
 # Custom vars
 # -------------------------
 
-current_version:  1.0.3
+current_version:  1.0.4
 name: 			  openPuglia
 
 # Main Logo
@@ -57,7 +57,7 @@ features_thumbs:
   - title: "Territorio"
     icon: "leaf"
     description: "Creare nuovi modelli di sviluppo, e nuova cultura, con gli openDATA dedicati all'ambiente ed al terriorio che concepisceano il territorio come il risultato di un vincente equilibrio tra crescita economica, rispetto dell'ambiente, protezione delle proprie radici, promozione degli individui e qualità della vita."
-  
+
 # Blockquote
 # -------------------------
 
@@ -89,10 +89,18 @@ work_thumbs:
    description: "Smart Mobility"
    url: "http://opendatabari.github.io/opencity/"
    image: "media/img/openbari.jpg"
- - title: "openARPA"
+ - title: "airQ-a127"
    description: "Open Data Environment"
-   url: "http://opendatabari.github.io/openarpa/"
+   url: "http://opendatabari.github.io/airq-a127/"
    image: "media/img/edo2.jpg"
+ - title: "airQ"
+   description: "Open Data Environment"
+   url: "http://opendatabari.github.io/airq-app/"
+   image: "media/img/airq-app.jpg"
+ - title: "Air Quality Index Lecce"
+   description: "Open Data Environment"
+   url: "http://www.vincenzopatruno.org/aqilecce/#"
+   image: "media/img/lecce.jpg"
 
 # Contact
 # -------------------------
