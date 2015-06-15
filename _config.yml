@@ -85,18 +85,10 @@ services:
 # -------------------------
 
 work_thumbs:
- - title: "openCITY"
-   description: "Smart Mobility"
-   url: "http://opendatabari.github.io/opencity/"
-   image: "media/img/openbari.jpg"
- - title: "airQ-a127"
+ - title: "CO2"
    description: "Open Data Environment"
-   url: "http://opendatabari.github.io/airq-a127/"
-   image: "media/img/edo2.jpg"
- - title: "airQ"
-   description: "Open Data Environment"
-   url: "http://opendatabari.github.io/airq-app/"
-   image: "media/img/airq-app.jpg"
+   url: "http://opendatabari.github.io/CO2/"
+   image: "media/img/co2.png"
  - title: "Air Quality Index Lecce"
    description: "Open Data Environment"
    url: "http://www.vincenzopatruno.org/aqilecce/#"
