@@ -89,7 +89,7 @@ work_thumbs:
    description: "Open Data Environment"
    url: "http://opendatabari.github.io/CO2/"
    image: "media/img/co2.png"
- - title: "CO2"
+ - title: "HateTraffic"
    description: "Mobility"
    url: "http://opendatabari.github.io/HateTraffic/"
    image: "media/img/heattraffic.png"
