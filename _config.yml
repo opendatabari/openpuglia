@@ -103,7 +103,7 @@ work_thumbs:
    image: "media/img/facciamo.jpg"
  - title: "Taranto Inquinata"
    description: "Riuso della Guida critica alla città e al territorio"
-   url: "http://opendatabari.github.io/facciamopolitica/index.html"
+   url: "http://public.ixmaps.com.s3-website-eu-west-1.amazonaws.com/maptune/maptune_flat.html?config=Taranto.js"
    image: "media/img/ilva.png"
  - title: "15^ Censimento Generale"
    description: "15° Censimento generale della popolazione e delle abitazioni 2011"
