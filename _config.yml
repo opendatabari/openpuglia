@@ -123,7 +123,7 @@ work_thumbs:
    image: "media/img/ilva_3.jpg"
  - title: "Dati storici ARPA Puglia"
    description: "Andamento della concentrazione di inquinanti rilevato dalle centraline dell'ARPA Puglia"
-   url: "goo.gl/PfN4Es"
+   url: "http://goo.gl/PfN4Es"
    image: "media/img/ilva_2.jpg"
 
 # Contact
