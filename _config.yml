@@ -297,6 +297,15 @@ staff:
    linkedin: ""
    github: ""
    mail: "giovanni.semeraro@uniba.it"
+ - title: "Domenico Capolongo"
+   subtitle: "Professore associato presso il dipartimento di Scienze della Terra e Geoambientali dell’Università degli Studi di Bari"
+   description: "Insegna Geomorfologia e GIS e ha interessi di ricerca in abito,  GIScience, Analisi Geospaziale, Telerilevamento, Cartografia Tematica e Rischio idrogeologico. E' promotore di un approccio open science in ambito scientifico."
+   avatar: "media/staff/capolongo.jpg"
+   twitter: ""
+   googleplus: "https://sites.google.com/site/spqggroup/"
+   linkedin: ""
+   github: ""
+   mail: "domenico.capolongo@uniba.it"
 
 # Configuration
 # -------------------------
